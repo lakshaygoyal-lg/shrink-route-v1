@@ -79,6 +79,10 @@ form {
     gap: 1rem;
 }
 
+#header{
+    cursor: pointer;
+}
+
 #url-label {
     font-size: 2rem;
 }
@@ -112,6 +116,15 @@ form {
 
 #result-link {
     background-color: rgb(0, 124, 173);
+}
+
+#result-link:hover{
+    background-color: rgb(0, 6, 173);
+    
+}
+
+#result-link:active{
+    background-color: rgb(127, 0, 173);
 }
 
 #success {
